@@ -1,4 +1,4 @@
-console.log('client side jsvascript is loaded')
+
 
 
 // fetch('https://puzzle.mead.io/puzzle').then((response) =>{
