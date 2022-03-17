@@ -6,6 +6,7 @@ const forecast = require('./utils/forecast') //grap forcat function
 
 
 const app = express()
+const port = process.env.PORT || 3000
 
 //define paths for express
 const publicDirctPath = path.join(__dirname, '../public')
