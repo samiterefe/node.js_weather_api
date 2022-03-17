@@ -121,6 +121,6 @@ app.get('*', (req, res)=>{
 //     res.send('about page')
 // })
 
-app.listen(3000, ()=>{
-    console.log('servre running')
+app.listen(port, ()=>{
+    console.log('servre running' + port)
 })
